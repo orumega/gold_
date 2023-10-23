@@ -1,0 +1,143 @@
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid #DADADA;
+  z-index: 50;
+  transition: transform .1s linear;
+  background-color: #FFF;
+}
+
+.header.hide {
+  transform: translateY(-60px);
+}
+
+.header_container {
+  display: flex;
+  min-height: 60px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.header__image-1 {
+  min-width: 70px;
+}
+
+.header__image-2 {
+  display: none;
+}
+
+
+
+.menu__list {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 0px;
+}
+
+/* .menu__list li {
+  display: flex;
+  align-items: center;
+} */
+
+/* .menu__list > li {
+  position: relative;
+  margin: 0px 0px 0px 20px;
+} */
+
+// .menu__item {
+//   margin: 0px 40px 0px 0px;
+// }
+
+// .menu__item:not(:last-child) {
+//   margin: 0px 30px 0px 0px;
+// }
+
+.menu__link {
+  color: #1E1E1E;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  position: relative;
+  padding-bottom: 18px;
+}
+
+.menu__link:hover {
+  border-bottom: solid 2px;
+}
+
+.menu__sub-list {
+  width: 160px;
+  position: absolute;
+  background: #313131;
+  border-radius: 20px;
+  text-align: center;
+  display: none;
+}
+
+.menu__sub-list.active {
+  display: block;
+}
+
+.menu__sub-list li {
+  margin: 10px 0px 10px 0px;
+}
+
+.menu__sub-link {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.header__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border-radius: 33px;
+  background: #313131;
+  width: 240px;
+  height: 40px; 
+}
+
+.header__button-2 {
+  display: none;
+}
+
+.burger {
+  display: none;
+}
+
+.burger-cross {
+  display: none;
+}
+
+/* .menu__arrow {
+  display: block;
+  width: 0;
+  height: 0;
+  transition: transform 0.3s ease 0s;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 10px solid #000000;
+  padding-bottom: 18px;
+} */
+
+/* @media screen and (min-width: 1211px) {
+  .menu__sub-list {
+      transform: translate(0px, 10%);
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+      transition: all 0.3s ease 0s;
+  }
+
+} */

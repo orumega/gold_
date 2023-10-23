@@ -1,0 +1,393 @@
+@media screen and (max-width: 894px) {
+  .menu__list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .menu__link {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    --title-font-size: 24px;
+    --sub-title-font-size: 17px;
+    --button-font-size: 14px;
+    --def-text-font-size: 14px;
+    --bid-text-font-size: 20px;
+    --small-text-font-size: 12px;
+  }
+  //--HEADER------------------------------------
+  .header_container {
+    justify-content: space-between;
+  }
+  .header__image-1 {
+    display: none;
+  }
+  .header__image-2 {
+    display: block;
+    min-width: 49px;
+  }
+  .header__button {
+    width: 186px;
+    height: 32px;
+    z-index: 50;
+  }
+  .header__button-1 {
+    display: none;
+  }
+  .header__button-2 {
+    display: block;
+  }
+  .header__logo {
+    z-index: 50;
+  }
+  .header__menu {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: auto;
+  }
+  .header__menu::before {
+    content: '';
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 60px;
+    border-bottom: 1px solid #dadada;
+    background: #ffffff;
+    z-index: 50;
+  }
+  .menu__list {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-height: 632px;
+    height: 100%;
+    background: #313131;
+    padding: 80px 0px 0px 15px;
+    transform: translate(-100%, 0px);
+    transition: all 0.3s ease 0s;
+  }
+  .menu__list.active {
+    transform: translate(0px, 0px);
+  }
+  .menu__link {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .menu__item:not(:last-child) {
+    margin: 0px 0px 25px 0px;
+  }
+  .burger {
+    z-index: 50;
+    display: block;
+  }
+  .burger.active .burger-stripes {
+    display: none;
+  }
+  .burger.active .burger-cross {
+    display: block;
+  }
+  .menu__sub-list {
+    display: none;
+  }
+
+  // ----------------------------------------
+  // MAIN PAGE
+  // ----------------------------------------
+
+  .first-section {
+    &__flex-box {
+      flex-direction: column;
+      align-items: center;
+    }
+    &__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__card-content {
+      margin-top: 100px;
+    }
+  }
+
+  .three-steps {
+    &__return-box {
+      flex-direction: column;
+      
+    }
+  }
+
+  .sold {
+    &__review {
+      flex-direction: column;
+    }
+    &__review-text {
+      margin-left: 30px;
+    }
+    &__cards {
+      flex-wrap: wrap;
+    }
+  }
+
+  .prise {
+    
+    &__lists {
+      flex-direction: column;
+      align-items: center;
+    }
+    &__sub-lists {
+      flex-direction: column;
+      align-items: center;
+    }
+    &__buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  .experience {
+    &__partners {
+      flex-wrap: wrap;
+      
+      img {
+        max-width: 320px;
+      }
+    }
+  }
+
+  .price-calculation {
+    &__calculator-items {
+      flex-direction: column;
+      gap: 10px;
+      justify-content: center;
+      
+    }
+    
+  }
+
+  .start-shopping {
+    &__revards {
+      max-width: 291px;
+    }
+    &__form-items {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__advantages {
+      flex-direction: column;
+      max-width: 230px;
+      
+    }
+    &__forms-to-fill {
+      flex-direction: column;
+      gap: 15px;
+      
+    }
+    &__sales-form-buttons {
+      flex-direction: column;
+
+    }
+    &__cards {
+      flex-wrap: wrap;
+    }
+
+  }
+
+  .safety {
+    &__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__advantages {
+      flex-direction: column;
+      
+    }
+  }
+
+  .reviews {
+    display: flex;
+    
+    &__cards {
+      flex-direction: column;
+    }
+  }
+
+  .visit-us {
+    &__cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  // ----------------------------------------
+  // SECOND PAGE
+  // ----------------------------------------
+
+  .sold-2 {
+    .card-bottom {
+      margin-top: 0px;
+    }
+  }
+
+  .sell-gold {
+    &__steps {
+      flex-wrap: wrap;
+    }
+  }
+
+  .delivery {
+    &__buttons {
+      flex-direction: column;
+    }
+  }
+
+// ------------------------------------------------
+// THIRD PAGE
+// ------------------------------------------------
+  
+  .purchase {
+    margin-top: 90px;
+    &__content {
+      flex-direction: column;
+      align-items: center;
+      gap: 60px;
+    }
+    .third-page-list {
+      margin-bottom: 60px;
+    }
+    &__buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+// ------------------------------------------------
+// SEVENTH PAGE
+// -----------------------------------------------
+.how-to-sell {
+  &__cards {
+    flex-direction: column;
+  }
+}
+  //------------------------------------------
+  .footer {
+    &__inner {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 15px;
+    }
+    
+  }
+  .footer_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  :root {
+    --title-font-size: 24px;
+    --sub-title-font-size: 14px;
+    --button-font-size: 14px;
+    --def-text-font-size: 16px;
+    --bid-text-font-size: 20px;
+    --small-text-font-size: 12px;
+  }
+  //--COMPONENTS-------------------------------
+  .button {
+    max-width: 195px;
+    max-height: 40px;
+  }
+  .button-border {
+    max-width: 195px;
+    max-height: 40px;
+  }
+  //---------------------------------
+  .first-section {
+    &__sub-title {
+      font-size: 25px;
+    }
+    &__title {
+      text-align: center;
+    }
+  }
+
+  .start-shopping {
+
+    
+    &__form-items {
+      padding: 15px;
+    }
+    &__form-to-fill {
+      p {
+        width: 299px;
+      }
+    }
+    
+  }
+
+  
+
+
+
+
+  
+}
+
+@media screen and (max-width: 375px) {
+  .first-section {
+    &__btns {
+      flex-direction: column;
+    }
+  }
+
+  .price-calculation {
+    &__alloy {
+      flex-direction: column;
+    }
+  }
+
+  .start-shopping {
+    &__button {
+      flex-direction: column;
+    }
+    &__form-to-fill {
+      p {
+        width: 253px;
+      }
+    }
+  }
+
+  .reviews {
+    &__card-items {
+      padding: 22px;
+    }
+  }
+
+  .visit-us {
+    
+    &__card-name-txt {
+      text-align: start;
+    }
+    &__card-stars {
+      img {
+        max-width: 18px;
+      }
+    }
+  }
+}
+
+

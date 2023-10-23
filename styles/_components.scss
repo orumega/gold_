@@ -1,0 +1,51 @@
+.button {
+  color: var(--white);
+  font-family: Montserrat;
+  font-size: var(--button-font-size);
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 252px;
+  height: 52px;
+  background-color: var(--light-black);
+  border-radius: 39px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-border {
+  color: var(--black);
+  font-family: Montserrat;
+  font-size: var(--button-font-size);
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 252px;
+  height: 52px;
+  background-color: var(--white);
+  border-radius: 38px;
+  border: 1px solid var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  color: var(--black);
+  font-family: Montserrat;
+  font-size: var(--title-font-size);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.sub-title {
+  color: var(--black);
+  font-family: Montserrat;
+  font-size: var(--sub-title-font-size);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

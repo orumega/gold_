@@ -1,0 +1,29 @@
+/* MAIN */
+
+html,
+body {
+  height: 100%;
+  line-height: 1;
+  color: #000;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-page {
+  flex: 1 1 auto;
+  margin-top: 60px;
+}
+
+
+
+.container {
+  max-width: 1200px !important;
+  margin: 0px auto;
+  padding: 0px 15px;
+  box-sizing: content-box;
+}

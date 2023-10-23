@@ -1,0 +1,89 @@
+.footer {
+  min-height: 314px;
+  border-top: 1px solid #DADADA;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.footer__logo {
+  max-width: 149px;
+}
+
+.footer__logo img {
+  margin-bottom: 48px;
+}
+
+.company__item a {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.company__item:not(:last-child) {
+  margin: 0px 0px 20px 0px;
+}
+
+.footer__columns {
+  display: flex;
+  gap: 15px;
+}
+
+.first-column li {
+  margin-bottom: 20px;
+}
+
+.first-column li:last-child {
+  margin: 0px;
+}
+
+.second-column li {
+  margin-bottom: 10px;
+}
+
+.second-column li:last-child {
+  margin: 0px;
+}
+
+.third-column li {
+  margin-bottom: 10px;
+}
+
+.third-column:last-child {
+  margin: 0px;
+}
+
+.footer__link {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  
+}
+
+.footer__mkey {
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.footer__mkey a {
+  color: #7C7C7C;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.mkey-logo {
+  margin-left: 10px;
+}
